@@ -1,0 +1,14 @@
+.video_container{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 2em;
+  row-gap: 1em;
+
+}
+
+.vidreoId{
+  background-color: black;
+
+
+}
+

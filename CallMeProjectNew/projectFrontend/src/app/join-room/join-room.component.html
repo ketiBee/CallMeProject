@@ -1,0 +1,22 @@
+<h1>Join Room</h1>
+
+<div class="container">
+  <div >
+
+      <div class="m-3">
+        <input type="text" class="form-control my-2" [(ngModel)]="username" name="username" placeholder="Username"/>
+      </div>
+      <div class="m-3">
+      <input
+        type="text"
+        class="form-control my-2"
+        placeholder="Enter room code"
+        [(ngModel)]="roomCode"
+        name="code"
+      />
+    </div>
+
+    <button type="button" class="mt-4 btn btn-primary btn-block form-control" (click)="onClick()" >Join Room</button>
+    </div>
+</div>
+

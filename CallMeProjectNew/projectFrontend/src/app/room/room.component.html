@@ -1,0 +1,49 @@
+
+<div class="conatiner">
+  <div class="d-flex flex-row mt-2" style="width: 500px">
+    <div>
+      <button class="btn btn-primary m-2" (click)="toggleCamera()">{{cameraOn ? ' CAMERA ON' : ' CAMERA OFF'}}</button>
+    </div>
+    <div>
+      <button type="button" class="btn btn-danger m-2" (click)="leaveButton()">End Call</button>
+    </div>
+  </div>
+
+  <div class="d-flex flex-row bg-white justify-content-center">
+    <div>
+
+      <div  #video_container class="video_container justify-content-between bg-primary-subtle m-4 border border-primary">
+
+        <video #userVideo class="videoId" [autoplay]="true" >
+
+        </video>
+
+
+
+
+      </div>
+
+    </div>
+    <div class="container d-flex flex-column m-4 bg-danger-subtle border border-danger" style="width: 500px;">
+      <div class="row">
+        <div class="col-md-12 text-center">
+        <h3>CHAT</h3>
+      </div>
+    </div>
+      <div>
+        <div class="message_container m-2" style="width:200px">
+          <div class="mesage_text bg-light-subtle rounded-pill m-2" *ngFor="let message of messages"><strong>{{message.username}}</strong>
+            <div >{{message.text}}</div>
+          </div>
+        </div>
+      <div>
+        <form #myForm="ngForm" (ngSubmit)="sendNewMessage(myForm)">
+          <input [(ngModel)]="textMsg" name="textMsg" placeholder="New message" class="form-control my-2" style="width: 300px"/>
+          <button class="btn btn-success" >Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>

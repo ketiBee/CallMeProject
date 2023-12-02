@@ -1,0 +1,8 @@
+2023-08-03 15:09:07,316 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2023-08-03 15:09:07,618 INFO o.j.r.JARSourceHTTP: Found cached repo
+2023-08-03 15:09:07,931 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.2, jpgc-casutg=2.10, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.7, jpgc-tst=2.6, websocket-samplers=1.2.8, jmeter-core=5.4.3, jmeter-ftp=5.4.3, jmeter-http=5.4.3, jmeter-jdbc=5.4.3, jmeter-jms=5.4.3, jmeter-junit=5.4.3, jmeter-java=5.4.3, jmeter-ldap=5.4.3, jmeter-mail=5.4.3, jmeter-mongodb=5.4.3, jmeter-native=5.4.3, jmeter-tcp=5.4.3, jmeter-components=5.4.3]
+2023-08-03 15:09:07,935 INFO o.j.r.PluginManagerCMD: Params line is: C:\Users\Katarina\Desktop\gitDiplomski4\callMeProject\projectBackend\modified_socketio_test.jmx
+2023-08-03 15:09:08,412 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-08-03 15:09:08,431 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-08-03 15:09:08,437 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-08-03 15:09:08,588 INFO o.j.r.PluginManager: Finishing without changes

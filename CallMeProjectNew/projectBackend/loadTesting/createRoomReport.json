@@ -1,0 +1,159 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.My sample scenario": 20,
+      "vusers.created": 20,
+      "engine.socketio.emit": 20,
+      "vusers.failed": 0,
+      "vusers.completed": 20
+    },
+    "rates": {
+      "engine.socketio.emit_rate": 1
+    },
+    "firstCounterAt": 1691147296677,
+    "firstHistogramAt": 1691147301776,
+    "lastCounterAt": 1691147311217,
+    "lastHistogramAt": 1691147311217,
+    "firstMetricAt": 1691147296677,
+    "lastMetricAt": 1691147311217,
+    "period": 1691147310000,
+    "summaries": {
+      "vusers.session_length": {
+        "min": 5012.8,
+        "max": 5099.7,
+        "count": 20,
+        "p50": 5065.6,
+        "median": 5065.6,
+        "p75": 5065.6,
+        "p90": 5065.6,
+        "p95": 5065.6,
+        "p99": 5065.6,
+        "p999": 5065.6
+      }
+    },
+    "histograms": {
+      "vusers.session_length": {
+        "min": 5012.8,
+        "max": 5099.7,
+        "count": 20,
+        "p50": 5065.6,
+        "median": 5065.6,
+        "p75": 5065.6,
+        "p90": 5065.6,
+        "p95": 5065.6,
+        "p99": 5065.6,
+        "p999": 5065.6
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.My sample scenario": 7,
+        "vusers.created": 7,
+        "engine.socketio.emit": 7
+      },
+      "rates": {
+        "engine.socketio.emit_rate": 2
+      },
+      "engine.socketio.emit_rate": null,
+      "firstCounterAt": 1691147296677,
+      "lastCounterAt": 1691147299693,
+      "firstMetricAt": 1691147296677,
+      "lastMetricAt": 1691147299693,
+      "period": "1691147290000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.My sample scenario": 13,
+        "vusers.created": 13,
+        "engine.socketio.emit": 13,
+        "vusers.failed": 0,
+        "vusers.completed": 17
+      },
+      "rates": {
+        "engine.socketio.emit_rate": 2
+      },
+      "engine.socketio.emit_rate": null,
+      "firstCounterAt": 1691147300175,
+      "firstHistogramAt": 1691147301776,
+      "lastCounterAt": 1691147309701,
+      "lastHistogramAt": 1691147309701,
+      "firstMetricAt": 1691147300175,
+      "lastMetricAt": 1691147309701,
+      "period": "1691147300000",
+      "summaries": {
+        "vusers.session_length": {
+          "min": 5012.8,
+          "max": 5099.7,
+          "count": 17,
+          "p50": 5065.6,
+          "median": 5065.6,
+          "p75": 5065.6,
+          "p90": 5065.6,
+          "p95": 5065.6,
+          "p99": 5065.6,
+          "p999": 5065.6
+        }
+      },
+      "histograms": {
+        "vusers.session_length": {
+          "min": 5012.8,
+          "max": 5099.7,
+          "count": 17,
+          "p50": 5065.6,
+          "median": 5065.6,
+          "p75": 5065.6,
+          "p90": 5065.6,
+          "p95": 5065.6,
+          "p99": 5065.6,
+          "p999": 5065.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.failed": 0,
+        "vusers.completed": 3
+      },
+      "rates": {},
+      "firstCounterAt": 1691147310199,
+      "firstHistogramAt": 1691147310199,
+      "lastCounterAt": 1691147311217,
+      "lastHistogramAt": 1691147311217,
+      "firstMetricAt": 1691147310199,
+      "lastMetricAt": 1691147311217,
+      "period": "1691147310000",
+      "summaries": {
+        "vusers.session_length": {
+          "min": 5023.3,
+          "max": 5039.4,
+          "count": 3,
+          "p50": 5065.6,
+          "median": 5065.6,
+          "p75": 5065.6,
+          "p90": 5065.6,
+          "p95": 5065.6,
+          "p99": 5065.6,
+          "p999": 5065.6
+        }
+      },
+      "histograms": {
+        "vusers.session_length": {
+          "min": 5023.3,
+          "max": 5039.4,
+          "count": 3,
+          "p50": 5065.6,
+          "median": 5065.6,
+          "p75": 5065.6,
+          "p90": 5065.6,
+          "p95": 5065.6,
+          "p99": 5065.6,
+          "p999": 5065.6
+        }
+      }
+    }
+  ]
+}

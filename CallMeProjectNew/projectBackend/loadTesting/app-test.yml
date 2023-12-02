@@ -1,0 +1,45 @@
+config:
+  target: "http://localhost:3000"
+  ensure:
+    max: 500
+    maxErrorRate: 1
+  phases:
+    - duration: 120
+      arrivalRate: 10
+      rampTo: 30
+      name: "warm Up"
+      
+   
+    
+  engines:
+   socketio-v3: {}
+
+scenarios:
+  - name: My sample scenario
+    engine: socketio-v3
+    flow:
+      
+      - emit:
+          channel: "join-room"
+          data: 
+            roomId: "57c2faab-47de-473b-bbb7-0c7c952d9b59"
+            username: "newUser"
+      - emit:
+          channel: "new-message"
+          data:
+            roomId: "57c2faab-47de-473b-bbb7-0c7c952d9b59"
+            message: 
+              text: "hej"
+              username: "newUser"
+      - think: 10
+      
+
+
+
+          
+
+   
+
+      
+     
+       

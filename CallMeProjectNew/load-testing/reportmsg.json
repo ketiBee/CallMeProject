@@ -1,0 +1,92 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 100,
+      "vusers.created": 100,
+      "errors.Error: timeout": 100,
+      "vusers.failed": 100
+    },
+    "rates": {},
+    "firstCounterAt": 1690386994736,
+    "lastCounterAt": 1690387034349,
+    "firstMetricAt": 1690386994736,
+    "lastMetricAt": 1690387034349,
+    "period": 1690387030000,
+    "summaries": {},
+    "histograms": {}
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 27,
+        "vusers.created": 27
+      },
+      "rates": {},
+      "firstCounterAt": 1690386994736,
+      "lastCounterAt": 1690386999777,
+      "firstMetricAt": 1690386994736,
+      "lastMetricAt": 1690386999777,
+      "period": "1690386990000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 50,
+        "vusers.created": 50
+      },
+      "rates": {},
+      "firstCounterAt": 1690387000214,
+      "lastCounterAt": 1690387009792,
+      "firstMetricAt": 1690387000214,
+      "lastMetricAt": 1690387009792,
+      "period": "1690387000000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 23,
+        "vusers.created": 23,
+        "errors.Error: timeout": 27,
+        "vusers.failed": 27
+      },
+      "rates": {},
+      "firstCounterAt": 1690387010213,
+      "lastCounterAt": 1690387019786,
+      "firstMetricAt": 1690387010213,
+      "lastMetricAt": 1690387019786,
+      "period": "1690387010000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.Error: timeout": 50,
+        "vusers.failed": 50
+      },
+      "rates": {},
+      "firstCounterAt": 1690387020224,
+      "lastCounterAt": 1690387029808,
+      "firstMetricAt": 1690387020224,
+      "lastMetricAt": 1690387029808,
+      "period": "1690387020000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.Error: timeout": 23,
+        "vusers.failed": 23
+      },
+      "rates": {},
+      "firstCounterAt": 1690387030231,
+      "lastCounterAt": 1690387034349,
+      "firstMetricAt": 1690387030231,
+      "lastMetricAt": 1690387034349,
+      "period": "1690387030000",
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}

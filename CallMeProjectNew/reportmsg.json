@@ -1,0 +1,108 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 300,
+      "vusers.created": 300,
+      "errors.Error: timeout": 300,
+      "vusers.failed": 300
+    },
+    "rates": {},
+    "firstCounterAt": 1690379222878,
+    "lastCounterAt": 1690379272746,
+    "firstMetricAt": 1690379222878,
+    "lastMetricAt": 1690379272746,
+    "period": 1690379270000,
+    "summaries": {},
+    "histograms": {}
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 71,
+        "vusers.created": 71
+      },
+      "rates": {},
+      "firstCounterAt": 1690379222878,
+      "lastCounterAt": 1690379229874,
+      "firstMetricAt": 1690379222878,
+      "lastMetricAt": 1690379229874,
+      "period": "1690379220000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 100,
+        "vusers.created": 100
+      },
+      "rates": {},
+      "firstCounterAt": 1690379230016,
+      "lastCounterAt": 1690379239874,
+      "firstMetricAt": 1690379230016,
+      "lastMetricAt": 1690379239874,
+      "period": "1690379230000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 100,
+        "vusers.created": 100,
+        "errors.Error: timeout": 71,
+        "vusers.failed": 71
+      },
+      "rates": {},
+      "firstCounterAt": 1690379240010,
+      "lastCounterAt": 1690379249875,
+      "firstMetricAt": 1690379240010,
+      "lastMetricAt": 1690379249875,
+      "period": "1690379240000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 29,
+        "vusers.created": 29,
+        "errors.Error: timeout": 100,
+        "vusers.failed": 100
+      },
+      "rates": {},
+      "firstCounterAt": 1690379250010,
+      "lastCounterAt": 1690379259883,
+      "firstMetricAt": 1690379250010,
+      "lastMetricAt": 1690379259883,
+      "period": "1690379250000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.Error: timeout": 100,
+        "vusers.failed": 100
+      },
+      "rates": {},
+      "firstCounterAt": 1690379260021,
+      "lastCounterAt": 1690379269878,
+      "firstMetricAt": 1690379260021,
+      "lastMetricAt": 1690379269878,
+      "period": "1690379260000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.Error: timeout": 29,
+        "vusers.failed": 29
+      },
+      "rates": {},
+      "firstCounterAt": 1690379270019,
+      "lastCounterAt": 1690379272746,
+      "firstMetricAt": 1690379270019,
+      "lastMetricAt": 1690379272746,
+      "period": "1690379270000",
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}

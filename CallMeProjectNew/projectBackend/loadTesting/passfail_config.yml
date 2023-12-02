@@ -1,0 +1,6 @@
+--- 
+services:
+  - module: passfail
+    criteria:
+      - avg-rt>500ms for 10s, stop as failed
+      - failures of socketiodemo >20% for 10s, continue as failed
